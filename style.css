@@ -4,15 +4,10 @@ body {
   overflow: hidden;
   font-family: 'Montserrat Alternates', sans-serif;
   color: #FAF7F0;
-  font-size: small;
+  font-size: medium;
   line-height: 20px;
   padding: 10px;
 }
-
-/* canvas {
-  opacity: 0.5;
-
-} */
 
 .container {
   width: 60%;   /* This sets the width */
