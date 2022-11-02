@@ -1,0 +1,136 @@
+body {
+  background-color: #404258;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #FAF7F0;
+  font-size: small;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.container {
+  width: 60%;   /* This sets the width */
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background: #6B728E;
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid lightgrey;
+  box-shadow: 10px 10px 5px #50577A;
+}
+
+h1 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+}
+
+#me-img {
+  border-radius: 50%;
+  height: auto;
+  width: 200px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #FAF7F0;
+  display: flex;
+  justify-content: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #B7C4CF;
+}
+.list-inline i:hover {
+  color: rgb(148, 8, 164);
+}
+
+/* button */
+.btn-one {
+  color: #FFF;
+  transition: all 0.3s;
+  position: relative;
+  display: inline-block;
+  width: 50%;
+}
+.btn-one span {
+  transition: all 0.3s;
+}
+.btn-one::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(255,255,255,0.5);
+  border-bottom-color: rgba(255,255,255,0.5);
+  transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+  letter-spacing: 2px;
+}
+.btn-one:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.btn-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-one:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}
+
+
+/* button */
+
+/* Media queries */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
