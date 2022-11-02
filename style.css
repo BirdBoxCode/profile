@@ -1,11 +1,18 @@
 body {
-  background-color: #404258;
+  background: #060e1b;
+  background-image: url(https://user-images.githubusercontent.com/26748614/96337246-f14d4580-1085-11eb-8793-a86d929e034d.jpg);
+  overflow: hidden;
   font-family: 'Montserrat Alternates', sans-serif;
   color: #FAF7F0;
   font-size: small;
   line-height: 20px;
   padding: 10px;
 }
+
+/* canvas {
+  opacity: 0.5;
+
+} */
 
 .container {
   width: 60%;   /* This sets the width */
@@ -24,6 +31,22 @@ body {
 h1 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: small;
+}
+
+#bg1 {
+  background-image: url(https://images.unsplash.com/photo-1535276811207-1bcae679870e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-size: 1500px;
+}
+
+#bg2 {
+  background-image: url(https://images.unsplash.com/photo-1535276811207-1bcae679870e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-size: 1500px;
+}
+
+#bg3 {
+  background-image: url(https://images.unsplash.com/photo-1535276811207-1bcae679870e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-size: 1500px;
+  background-position: bottom;
 }
 
 #me-img {
@@ -111,7 +134,12 @@ a {
 }
 
 
-/* button */
+/* animation */
+
+
+
+
+/* antimaion end */
 
 /* Media queries */
 @media (max-width: 960px) {
